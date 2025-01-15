@@ -7,9 +7,9 @@
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373"
+    "primary": "#9457E2",
+    "light": "#9457E2",
+    "dark": "#9457E2"
   },
   "topbarLinks": [
     {
@@ -25,10 +25,13 @@
     {
       "group": "Get started",
       "pages": [
-        "introduction"
+        "quickstart"
       ]
     }
   ],
+  "background": {
+    "style": "grid"
+  },
   "footerSocials": {
     "x": "https://x.com/qiton_app",
     "github": "https://github.com/matheograil/qiton-docs"

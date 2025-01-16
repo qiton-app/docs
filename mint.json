@@ -14,7 +14,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@qiton.app"
+      "url": "/miscellaneous/support"
     }
   ],
   "topbarCtaButton": {
@@ -25,13 +25,15 @@
     {
       "group": "Get started",
       "pages": [
-        "quickstart"
+        "quickstart",
+        "get-started/setup"
       ]
     },
     {
       "group": "Miscellaneous",
       "pages": [
-        "miscellaneous/support"
+        "miscellaneous/support",
+        "miscellaneous/team"
       ]
     },
     {

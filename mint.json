@@ -33,7 +33,9 @@
       "group": "Miscellaneous",
       "pages": [
         "miscellaneous/support",
-        "miscellaneous/team"
+        "miscellaneous/team",
+        "miscellaneous/privacy",
+        "miscellaneous/security"
       ]
     },
     {

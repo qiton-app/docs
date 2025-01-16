@@ -23,15 +23,15 @@
   },
   "navigation": [
     {
-      "group": "Miscellaneous",
-      "pages": [
-        "miscellaneous/support"
-      ]
-    },
-    {
       "group": "Get started",
       "pages": [
         "quickstart"
+      ]
+    },
+    {
+      "group": "Miscellaneous",
+      "pages": [
+        "miscellaneous/support"
       ]
     },
     {

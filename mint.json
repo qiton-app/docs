@@ -31,7 +31,8 @@
     {
       "group": "Troubleshooting",
       "pages": [
-        "troubleshooting/register"
+        "troubleshooting/register",
+        "troubleshooting/status"
       ]
     }
   ],

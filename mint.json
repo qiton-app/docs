@@ -27,6 +27,12 @@
       "pages": [
         "quickstart"
       ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/register"
+      ]
     }
   ],
   "background": {

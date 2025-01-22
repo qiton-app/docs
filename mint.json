@@ -26,7 +26,8 @@
       "group": "Get started",
       "pages": [
         "quickstart",
-        "get-started/setup"
+        "get-started/setup",
+        "get-started/import-rate"
       ]
     },
     {
@@ -42,7 +43,8 @@
       "group": "Troubleshooting",
       "pages": [
         "troubleshooting/register",
-        "troubleshooting/status"
+        "troubleshooting/status",
+        "troubleshooting/known-issues"
       ]
     }
   ],

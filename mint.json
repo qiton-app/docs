@@ -31,12 +31,19 @@
       ]
     },
     {
+      "group": "Core features",
+      "pages": [
+        "core/matches"
+      ]
+    },
+    {
       "group": "Miscellaneous",
       "pages": [
         "miscellaneous/support",
         "miscellaneous/team",
         "miscellaneous/privacy",
-        "miscellaneous/security"
+        "miscellaneous/security",
+        "miscellaneous/socials"
       ]
     },
     {
@@ -52,7 +59,7 @@
     "style": "grid"
   },
   "footerSocials": {
-    "x": "https://x.com/qiton_app",
+    "website": "https://qiton.app",
     "github": "https://github.com/matheograil/qiton-docs"
   }
 }

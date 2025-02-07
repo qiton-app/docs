@@ -33,7 +33,8 @@
     {
       "group": "Core features",
       "pages": [
-        "core/matches"
+        "core/matches",
+        "core/basic-stats"
       ]
     },
     {

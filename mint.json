@@ -27,6 +27,7 @@
       "pages": [
         "quickstart",
         "get-started/setup",
+        "get-started/wording",
         "get-started/import-rate"
       ]
     },
@@ -40,6 +41,7 @@
     {
       "group": "Miscellaneous",
       "pages": [
+        "miscellaneous/releases",
         "miscellaneous/support",
         "miscellaneous/team",
         "miscellaneous/privacy",

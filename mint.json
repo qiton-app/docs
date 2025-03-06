@@ -34,9 +34,20 @@
     {
       "group": "Core features",
       "pages": [
-        "core/matches",
-        "core/players",
-        "core/basic-stats"
+        {
+          "group": "Match",
+          "pages": [
+            "core/matches",
+            "core/basic-stats",
+            "core/replay"
+          ]
+        },
+        {
+          "group": "Player",
+          "pages": [
+            "core/players"
+          ]
+        }
       ]
     },
     {

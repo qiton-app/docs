@@ -23,6 +23,12 @@
   },
   "navigation": [
     {
+      "group": "Changelogs",
+      "pages": [
+        "changelogs"
+      ]
+    },
+    {
       "group": "Get started",
       "pages": [
         "quickstart",

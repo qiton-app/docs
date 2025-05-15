@@ -54,7 +54,8 @@
     {
       "group": "Account features",
       "pages": [
-        "account/password"
+        "account/password",
+        "account/sub"
       ]
     },
     {

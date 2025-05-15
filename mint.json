@@ -47,7 +47,8 @@
           "pages": [
             "core/players"
           ]
-        }
+        },
+        "core/metrics"
       ]
     },
     {

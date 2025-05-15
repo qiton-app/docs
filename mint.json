@@ -52,6 +52,13 @@
       ]
     },
     {
+      "group": "Account features",
+      "pages": [
+        "account/password",
+        "account/sub"
+      ]
+    },
+    {
       "group": "Miscellaneous",
       "pages": [
         "miscellaneous/releases",

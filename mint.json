@@ -38,7 +38,7 @@
           "group": "Match",
           "pages": [
             "core/matches",
-            "core/basic-stats",
+            "core/statistics",
             "core/replay"
           ]
         },

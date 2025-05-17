@@ -1,5 +1,5 @@
 ---
-title: "Basic statistics"
+title: "Statistics"
 description: "A beautiful scoreboard is a good start"
 icon: "connectdevelop"
 ---
@@ -14,12 +14,12 @@ icon: "connectdevelop"
 <Frame>
     <img
         className="block dark:hidden"
-        src="./images/basic-stats/scoreboard.png"
+        src="./images/statistics/scoreboard.png"
         alt="Scoreboard"
     />
     <img
         className="hidden dark:block"
-        src="./images/basic-stats/scoreboard.png"
+        src="./images/statistics/scoreboard.png"
         alt="Scoreboard"
     />
 </Frame>
@@ -30,13 +30,22 @@ Multiple scoreboards are available for each match:
 
 ## Details
 
+<Frame>
+    <img
+        className="block dark:hidden"
+        src="./images/statistics/scoreboard-columns.png"
+        alt="Scoreboard columns"
+    />
+    <img
+        className="hidden dark:block"
+        src="./images/statistics/scoreboard-columns.png"
+        alt="Scoreboard columns"
+    />
+</Frame>
+
+### Basics
+
 <Tabs>
-    <Tab title="Metrics">
-        Metrics score is a composite performance rating calculated by normalizing and weighting various statistics based
-        on a predefined preset. It produces a final score between 0 and 100, reflecting the overall effectiveness of a
-        player in a match or series.
-        **A higher value generally indicates better performance.**
-    </Tab>
     <Tab title="ACS">
         ACS stands for Average Combat Score. The ACS is calculated based on various factors, including kills, deaths,
         assists and the impact of abilities used during the game.
@@ -55,6 +64,15 @@ Multiple scoreboards are available for each match:
         an opponent, usually by dealing damage or applying a debuff, but does not land the final blow.
         **A higher value generally indicates better performance.**
     </Tab>
+    <Tab title="Trades">
+        Trades occur when a teammate avenges a player's death by killing the opponent who eliminated them within 3
+        seconds.
+    </Tab>
+</Tabs>
+
+### Ratios
+
+<Tabs>
     <Tab title="KDA">
         KDA stands for Kills Deaths Assists. The KDA ratio is calculated by adding kills and assists, then dividing by
         the number of deaths.
@@ -81,7 +99,13 @@ Multiple scoreboards are available for each match:
         FD stands for First Death. It tracks how often a player is the first to die in a round.
         **A lower value generally indicates better performance.**
     </Tab>
+    <Tab title="TD">
+        TD stands for Trade Death, a metric that measures the frequency of player trades within a round.
+        **A higher value generally indicates better performance.**
+    </Tab>
 </Tabs>
+
+### Per round
 
 <Tabs>
     <Tab title="K/R">
@@ -103,6 +127,9 @@ Multiple scoreboards are available for each match:
     <Tab title="FD/R">
         FD/R stands for First Deaths per Round. This shows how often a player is the first to die in a round.
         Between 0 and 1. **A lower value generally indicates better performance.**
+    </Tab>
+    <Tab title="T/R">
+        T/R stands for Trades per Round, indicating how frequently a player is traded.
     </Tab>
 </Tabs>
 

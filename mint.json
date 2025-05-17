@@ -37,15 +37,16 @@
         {
           "group": "Match",
           "pages": [
-            "core/matches",
-            "core/statistics",
-            "core/replay"
+            "core/match/root",
+            "core/match/statistics",
+            "core/match/replay"
           ]
         },
         {
           "group": "Player",
           "pages": [
-            "core/players"
+            "core/player/root",
+            "core/player/accuracy"
           ]
         },
         "core/metrics"

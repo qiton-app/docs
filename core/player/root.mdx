@@ -11,7 +11,7 @@ icon: "person"
         loop
         playsInline
         className="w-full aspect-video block dark:hidden"
-        src="./images/players/presentation.mp4"
+        src="./images/root/presentation.mp4"
     ></video>
     <video
         autoPlay
@@ -19,17 +19,11 @@ icon: "person"
         loop
         playsInline
         className="w-full aspect-video hidden dark:block"
-        src="./images/players/presentation.mp4"
+        src="./images/root/presentation.mp4"
     ></video>
 </Frame>
 
-Rank and compare any player based on any stat available with the following filters:
-- `Index`, the stat that determines how to rank players
-- `Days`, a time filter
-- `Rounds`, the minimum rounds played
-- `Team`, the player's team
-- `Agent`, the players that played the agent
-- `Map`, the players that played in this map
+Rank and compare any player based on any available statistic.
 
 ## Prerequisites
 
@@ -40,22 +34,31 @@ Rank and compare any player based on any stat available with the following filte
 Start by going to the players page at [qiton.app/players](https://qiton.app/players).
 You will find all players detected by our system like below.
 
-## Statistics
+## List
 
 <Frame>
     <img
         className="block dark:hidden"
-        src="./images/players/list.png"
+        src="./images/root/list.png"
         alt="Players list"
     />
     <img
         className="hidden dark:block"
-        src="./images/players/list.png"
+        src="./images/root/list.png"
         alt="Players list"
     />
 </Frame>
 
-Descriptions are available [here](/core/statistics#details).
+Descriptions are available [here](/core/match/statistics#details).
+
+## Filters
+
+- `Index`, the stat that determines how to rank players
+- `Days`, a time filter
+- `Rounds`, the minimum rounds played
+- `Team`, the player's team
+- `Agent`, the players that played the agent
+- `Map`, the players that played in this map
 
 ## Metrics preset
 

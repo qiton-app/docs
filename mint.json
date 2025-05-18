@@ -46,6 +46,7 @@
           "group": "Player",
           "pages": [
             "core/player/root",
+            "core/player/statistics",
             "core/player/accuracy"
           ]
         },
@@ -64,10 +65,11 @@
       "pages": [
         "miscellaneous/releases",
         "miscellaneous/support",
+        "miscellaneous/socials",
         "miscellaneous/team",
         "miscellaneous/privacy",
         "miscellaneous/security",
-        "miscellaneous/socials"
+        "miscellaneous/legal"
       ]
     },
     {

@@ -49,9 +49,26 @@
           "pages": [
             "core/player/root",
             "core/player/summary",
-            "core/player/performances",
-            "core/player/statistics",
-            "core/player/accuracy"
+            {
+              "group": "Overview",
+              "pages": [
+                "core/player/overview/performances",
+                "core/player/overview/statistics",
+                "core/player/overview/accuracy"
+              ]
+            },
+            {
+              "group": "History",
+              "pages": [
+                "core/player/history/matches"
+              ]
+            },
+            {
+              "group": "Insights",
+              "pages": [
+                "core/player/insights/agents"
+              ]
+            }
           ]
         }
       ]

@@ -48,6 +48,7 @@
           "group": "Player",
           "pages": [
             "core/player/root",
+            "core/player/performances",
             "core/player/statistics",
             "core/player/accuracy"
           ]

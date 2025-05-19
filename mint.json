@@ -62,6 +62,12 @@
               "pages": [
                 "core/player/history/matches"
               ]
+            },
+            {
+              "group": "Insights",
+              "pages": [
+                "core/player/insights/agents"
+              ]
             }
           ]
         }

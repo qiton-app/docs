@@ -67,7 +67,8 @@
               "group": "Insights",
               "pages": [
                 "core/player/insights/agents",
-                "core/player/insights/clutches"
+                "core/player/insights/clutches",
+                "core/player/insights/agents-pool"
               ]
             }
           ]

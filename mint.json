@@ -41,7 +41,13 @@
           "pages": [
             "core/match/root",
             "core/match/statistics",
-            "core/match/replay"
+            "core/match/versus",
+            {
+              "group": "Replay",
+              "pages": [
+                "core/match/replay/the-player"
+              ]
+            }
           ]
         },
         {

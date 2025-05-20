@@ -41,6 +41,7 @@
           "pages": [
             "core/match/root",
             "core/match/statistics",
+            "core/match/versus",
             {
               "group": "Replay",
               "pages": [

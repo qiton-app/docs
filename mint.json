@@ -42,6 +42,9 @@
             "core/match/root",
             "core/match/statistics",
             "core/match/versus",
+            "core/match/conversions",
+            "core/match/maps",
+            "core/match/reset",
             {
               "group": "Replay",
               "pages": [

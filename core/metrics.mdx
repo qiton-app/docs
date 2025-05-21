@@ -1,45 +1,83 @@
 ---
 title: "Metrics"
-description: "Your tool, your rules"
+description: "The smartest way to rate Valorant performances"
 icon: "trophy"
 ---
 
 <Frame>
-    <img
-        className="block dark:hidden"
-        src="./images/metrics/component.png"
-        alt="Metrics component"
-    />
-    <img
-        className="hidden dark:block"
-        src="./images/metrics/component.png"
-        alt="Metrics component"
-    />
+    <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="w-full aspect-video block dark:hidden"
+        src="./images/metrics/presentation.mp4"
+    ></video>
+    <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="w-full aspect-video hidden dark:block"
+        src="./images/metrics/presentation.mp4"
+    ></video>
 </Frame>
 
-Our Metrics feature allows coaches to assign weights to statistics based on their personal preferences and the perceived
-importance of those statistics for a specific role.
-**For instance, you might believe that a duelist should prioritize ADR over HS.**
+**Metrics** is a **weights-based performance system** designed specifically for _Valorant_.
+> It evaluates your impact differently based on your **agent’s role**—so playing **Jett** won’t be judged the same way
+as **Omen**.
 
-After aggregating all these weights, we calculate a score ranging **from 0 to 100**.
+You get **custom-tailored ratings** that reflect both your role and your priorities in the match.
 
-As you may understand, these scores are primarily focused on individual players, but they can also be used more broadly
-to evaluate the performance of a team by calculating an average of its players.
+## Why use it ?
+
+Not every role should be measured the same way.
+
+| Role                           | Focus                                           |
+|--------------------------------|-------------------------------------------------|
+| **Duelist**                    | Entry, frags and clutch potential               |
+| **Sentinel**                   | Utility use, area control and team support      |
+| **Controller** & **Initiator** | Map control, setup plays and enabling teammates |
+
+## Statistics you can weight
+
+- `HS`
+- `ADR`
+- `KAST`
+- `KDA`
+- `Kills`
+- `Deaths`
+- `Assists`
+- `FK`
+- `FD`
+- `ACS`
+- `Trades`
+- `TD`
+
+Descriptions are available [here](/core/statistics-meaning).
+
+## Available presets
+
+- `Global`
+- `Duelist` (role)
+- `Sentinel` (role)
+- `Controller` (role)
+- `Initiator` (role)
 
 ## Usage
 
 You can change weights at any time during your journey as the component is always displayed at the bottom left.
 
-## Available presets
+## Where do I see Metrics scores ?
 
-- `Global`
-- `Duelist`
-- `Sentinel`
-- `Controller`
-- `Initiator`
-
-## What preset is used ?
+Metrics scores are shown **per match** and **averaged across matches or players** for deeper insights.
 
 Depending on the pages, we could use **the Global** or **role** preset.
 Please refer to the documentation.
 Whenever a Metrics score is displayed, we precise the preset in use.
+
+---
+
+<Check>
+    Metrics helps you understand **how well you’re playing** in the context that matters most: your role.
+</Check>

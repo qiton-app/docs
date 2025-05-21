@@ -35,7 +35,7 @@
       "group": "Core features",
       "pages": [
         "core/statistics-meaning",
-        "core/metrics",
+        "core/caliber",
         {
           "group": "Match",
           "pages": [
@@ -47,9 +47,7 @@
             "core/match/reset",
             {
               "group": "Replay",
-              "pages": [
-                "core/match/replay/the-player"
-              ]
+              "pages": ["core/match/replay/the-player"]
             }
           ]
         },
@@ -68,9 +66,7 @@
             },
             {
               "group": "History",
-              "pages": [
-                "core/player/history/matches"
-              ]
+              "pages": ["core/player/history/matches"]
             },
             {
               "group": "Insights",
@@ -87,10 +83,7 @@
     },
     {
       "group": "Account features",
-      "pages": [
-        "account/password",
-        "account/sub"
-      ]
+      "pages": ["account/password", "account/sub"]
     },
     {
       "group": "Miscellaneous",

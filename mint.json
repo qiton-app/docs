@@ -96,7 +96,9 @@
             {
               "group": "Insights",
               "pages": [
-                "core/team/insights/attack-speed"
+                "core/team/insights/attack-speed",
+                "core/team/insights/win-conditions",
+                "core/team/insights/maps"
               ]
             }
           ]

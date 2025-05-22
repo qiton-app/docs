@@ -82,6 +82,12 @@
               ]
             }
           ]
+        },
+        {
+          "group": "Team",
+          "pages": [
+            "core/team/root"
+          ]
         }
       ]
     },

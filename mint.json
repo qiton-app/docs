@@ -92,6 +92,12 @@
               "pages": [
                 "core/team/history/matches"
               ]
+            },
+            {
+              "group": "Insights",
+              "pages": [
+                "core/team/insights/attack-speed"
+              ]
             }
           ]
         }

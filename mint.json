@@ -86,7 +86,13 @@
         {
           "group": "Team",
           "pages": [
-            "core/team/root"
+            "core/team/root",
+            {
+              "group": "History",
+              "pages": [
+                "core/team/history/matches"
+              ]
+            }
           ]
         }
       ]

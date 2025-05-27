@@ -30,6 +30,66 @@ You will find all teams detected by our system.
     />
 </Frame>
 
+## Available statistics
+
+- `Metrics`
+- `Rounds`
+- `ACS`
+- `KDA`
+- `TD`
+- `ADR`
+- `HS`
+- `KAST`
+- `K/R`
+- `D/R`
+- `A/R`
+- `FK/R`
+- `FD/R`
+- `T/R`
+- `Kills`
+- `Deaths`
+- `Assists`
+- `K(MAX)`
+- `D(MAX)`
+- `A(MAX)`
+- `K(MIN)`
+- `D(MIN)`
+- `A(MIN)`
+
+Descriptions are available [here](/core/statistics-meaning).
+
 ## Available filters
 
+- `Index`
+- `Minimum rounds`
 - `Team name`
+- `Dates`
+- `Maps`
+- `Tournaments`
+
+<Frame>
+    <img
+        className="block dark:hidden"
+        src="./images/root/filters.png"
+        alt="Filters"
+    />
+    <img
+        className="hidden dark:block"
+        src="./images/root/filters.png"
+        alt="Filters"
+    />
+</Frame>
+
+Modify the scope of the provided statistics based on the following situations.
+- `Attack & defense`
+- `Attack`
+- `Defense`
+
+## Metrics
+
+Each Metrics score displayed on this page is calculated through the following steps.
+
+1. We calculate a Metrics score by considering **the Global preset** and the average statistics of **the selected team
+players**.
+
+Learn more [here](/core/metrics).

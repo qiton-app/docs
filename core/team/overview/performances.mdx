@@ -4,24 +4,24 @@ description: "Recent performances"
 icon: "chart-simple"
 ---
 
-This chart empowers the Metrics feature by providing the latest scores for the selected player.
+This chart empowers the Metrics feature by providing the latest scores for the selected team.
 Each bar represents a single match.
 
 ## Prerequisites
 
 - An active account ([learn more](/get-started/setup))
-- You have to select a player beforehand ([learn more](/core/player/root))
+- You have to select a team beforehand ([learn more](/core/team/root))
 
 ## Steps
 
-Navigate to the **Overview** tab.
+Navigate to the **Team** tab.
 
 ## Preview
 
 <Frame>
     <img
         src="./images/performances/component.png"
-        alt="Player recent performances"
+        alt="Team recent performances"
     />
 </Frame>
 
@@ -42,7 +42,7 @@ Descriptions are available [here](/core/statistics-meaning).
 <Frame>
     <img
         src="./images/performances/filters.png"
-        alt="Filters"
+        alt="Team recent performances filters"
     />
 </Frame>
 
@@ -50,8 +50,7 @@ Descriptions are available [here](/core/statistics-meaning).
 
 Each Metrics score displayed on this page is calculated through the following steps.
 
-1. For each sub-match linked to **the selected match**, we calculate a Metrics score by considering **the role’s
-preset** and **the player’s statistics**.
-2. We then calculate the final score by taking a **weighted average** of all these scores.
+1. We calculate a Metrics score by considering **the Global preset** and the average players' statistics composing
+**the selected team** during **the selected match**.
 
 Learn more [here](/core/metrics).

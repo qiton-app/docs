@@ -87,6 +87,16 @@
           "group": "Team",
           "pages": [
             "core/team/root",
+            "core/team/summary",
+            {
+              "group": "Overview",
+              "pages": [
+                "core/team/overview/performances",
+                "core/team/overview/players",
+                "core/team/overview/statistics",
+                "core/team/overview/results"
+              ]
+            },
             {
               "group": "History",
               "pages": [

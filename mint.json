@@ -36,6 +36,7 @@
       "pages": [
         "core/statistics-meaning",
         "core/metrics",
+        "core/search-bar",
         {
           "group": "Match",
           "pages": [

@@ -119,6 +119,7 @@
     {
       "group": "Account features",
       "pages": [
+        "account/team-owner",
         "account/password",
         "account/sub"
       ]

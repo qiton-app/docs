@@ -36,6 +36,7 @@
       "pages": [
         "core/statistics-meaning",
         "core/metrics",
+        "core/search-bar",
         {
           "group": "Match",
           "pages": [
@@ -119,6 +120,7 @@
     {
       "group": "Account features",
       "pages": [
+        "account/team-owner",
         "account/password",
         "account/sub"
       ]

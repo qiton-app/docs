@@ -1,23 +1,62 @@
 ---
 title: "Status page"
-description: "How can I check the status of Qiton ?"
+description: "Qiton is always up, except for when it's not"
 icon: "server"
 ---
 
-<Info>You could experience some latencies everyday at 3:00 AM UTC due to the daily backup process.
-    Should not take more than 5 minutes.</Info>
+<Info>
+    You could experience some latencies everyday at 3:00AM (UTC+0) due to the daily backup process.
+    Should not take more than 5 minutes.
+</Info>
 
 ## Monitoring
 
 We use automated tools to monitor the status of our services.
 You can check it at any time by visiting [status.qiton.app](https://status.qiton.app).
 
-## Incidents
+<Frame>
+    <img
+        src="./images/status/hyperping.png"
+        alt="Hyperping"
+    />
+</Frame>
 
-Sometimes, we schedule maintenance to upgrade our infrastructure.
-Additionally, unplanned incidents may occur and don’t directly affect the entire website, so the status page will
-display no downtime.
-We recommend that you regularly check [incidents.qiton.app](https://incidents.qiton.app) to monitor any current or future downtime.
+### Marketing
+
+All static content like videos, images, CSS, JS and HTML resources.
+These resources should never be down as we are using load balancers.
+
+So by loading [qiton.app](https://qiton.app), you are accessing the **Marketing** part.
+
+### Dashboard
+
+Very similar to the **Marketing** part, except that it applies to all dynamic content.
+
+So by using Qiton as a customer, you are loading dynamic content to get your data.
+
+### Valorant API
+
+All images linked to the Valorant game (maps, agents, items).
+
+### Docs
+
+The page you are reading.
+
+### Incidents
+
+Sometimes we schedule maintenances to upgrade our infrastructure.
+Additionally unplanned problems may occur and don’t directly affect the entire website such as Valorant significant
+changes.
+
+We recommend that you regularly check [incidents.qiton.app](https://incidents.qiton.app) to monitor any current or
+future incidents.
+
+<Frame>
+    <img
+        src="./images/status/incidents.png"
+        alt="Incidents"
+    />
+</Frame>
 
 ## Report an issue
 

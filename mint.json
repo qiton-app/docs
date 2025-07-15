@@ -126,6 +126,12 @@
               "pages": [
                 "core/map/history/matches"
               ]
+            },
+            {
+              "group": "Heatmaps",
+              "pages": [
+                "core/map/heatmaps/minimap"
+              ]
             }
           ]
         }

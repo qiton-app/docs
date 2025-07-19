@@ -122,6 +122,12 @@
             "core/map/root",
             "core/map/summary",
             {
+              "group": "Overview",
+              "pages": [
+                "core/map/overview/leaderboards"
+              ]
+            },
+            {
               "group": "History",
               "pages": [
                 "core/map/history/matches"

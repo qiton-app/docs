@@ -124,7 +124,8 @@
             {
               "group": "Overview",
               "pages": [
-                "core/map/overview/leaderboards"
+                "core/map/overview/leaderboards",
+                "core/map/overview/attack-speed"
               ]
             },
             {

@@ -124,7 +124,9 @@
             {
               "group": "Overview",
               "pages": [
+                "core/map/overview/global-attack-speed",
                 "core/map/overview/leaderboards",
+                "core/map/overview/site-rates",
                 "core/map/overview/attack-speed"
               ]
             },

@@ -38,6 +38,7 @@
         "core/metrics",
         "core/search-bar",
         "core/mobile-access",
+        "core/dashboard",
         {
           "group": "Match",
           "pages": [

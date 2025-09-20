@@ -83,6 +83,12 @@
                 "core/player/insights/agents-pool",
                 "core/player/insights/maps"
               ]
+            },
+            {
+              "group": "Skills",
+              "pages": [
+                "core/player/skills/skills"
+              ]
             }
           ]
         },

@@ -43,8 +43,10 @@
           "group": "Match",
           "pages": [
             "core/match/root",
+            "core/match/rounds",
             "core/match/statistics",
             "core/match/versus",
+            "core/match/economy",
             "core/match/conversions",
             "core/match/maps",
             "core/match/reset",

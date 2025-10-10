@@ -122,6 +122,12 @@
                 "core/team/insights/win-conditions",
                 "core/team/insights/maps"
               ]
+            },
+            {
+              "group": "Economy",
+              "pages": [
+                "core/team/economy/economic-performance"
+              ]
             }
           ]
         },

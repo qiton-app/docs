@@ -126,7 +126,9 @@
             {
               "group": "Economy",
               "pages": [
-                "core/team/economy/economic-performance"
+                "core/team/economy/economic-performance",
+                "core/team/economy/round-details",
+                "core/team/economy/preferred-loadout"
               ]
             }
           ]

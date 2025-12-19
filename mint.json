@@ -39,6 +39,7 @@
         "core/search-bar",
         "core/mobile-access",
         "core/dashboard",
+        "core/axiom",
         {
           "group": "Match",
           "pages": [

@@ -54,7 +54,8 @@
             {
               "group": "Replay",
               "pages": [
-                "core/match/replay/the-player"
+                "core/match/replay/the-player",
+                "core/match/replay/similar-rounds"
               ]
             }
           ]
